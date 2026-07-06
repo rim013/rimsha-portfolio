@@ -1,4 +1,4 @@
-// Smooth scroll for internal links
+// Smooth scroll for internal links 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', function(e) {
     const target = document.querySelector(this.getAttribute('href'));
